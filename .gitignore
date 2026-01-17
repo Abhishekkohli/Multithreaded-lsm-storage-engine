@@ -1,0 +1,36 @@
+# Build artifacts
+obj/
+bin/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# Database files
+data/
+*.sst
+*.wal
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiler output
+*.d
+*.gcda
+*.gcno
+
+# Debug files
+*.dSYM/
+vgcore.*
+
+# CMake (if used later)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
