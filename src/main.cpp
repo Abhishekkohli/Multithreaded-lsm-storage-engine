@@ -52,7 +52,6 @@ std::string FormatNumber(uint64_t n) {
     }
     return s;
 }
-
 /**
  * Timer class for benchmarking
  */
